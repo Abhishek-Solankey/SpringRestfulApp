@@ -1,10 +1,10 @@
-package com.restfulwebservices.RestfulCrud;
+package com.spring.rest.webservices.restfulwebservices;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RestfulCrudApplicationTests {
+class RestfulWebServicesApplicationTests {
 
 	@Test
 	void contextLoads() {
