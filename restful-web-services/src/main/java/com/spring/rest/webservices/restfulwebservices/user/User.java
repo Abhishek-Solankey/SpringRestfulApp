@@ -25,15 +25,15 @@ public class User {
 	private Date birthdate;
 	
 	@OneToMany(mappedBy = "user")
-	private List<Post> post;
+	private List<Post> posts;
 	
 	
 	
-	public List<Post> getPost() {
-		return post;
+	public List<Post> getPosts() {
+		return posts;
 	}
-	public void setPost(List<Post> post) {
-		this.post = post;
+	public void setPost(List<Post> posts) {
+		this.posts = posts;
 	}
 	public Integer getId() {
 		return id;
